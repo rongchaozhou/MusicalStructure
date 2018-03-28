@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background"
+    android:orientation="vertical"
+    tools:context="com.rongchaozhou.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/database"
+        style="@style/CategoryStyle"
+        android:background="@color/category_database"
+        android:text="@string/category_database" />
+
+    <TextView
+        android:id="@+id/now_playing"
+        style="@style/CategoryStyle"
+        android:background="@color/category_now_playing"
+        android:text="@string/category_now_playing" />
+
+</LinearLayout>
